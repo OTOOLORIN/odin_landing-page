@@ -83,7 +83,7 @@ body {
 .img-container {
     /* border: 2px solid red; */
     color: white;
-    background-color: darkgray;
+    background-color: darkslategray;
     width: 510px;
     display: flex;
     justify-content: center;
