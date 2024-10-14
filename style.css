@@ -89,3 +89,51 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.section-two {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    height: 400px;
+}
+
+.some-info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.images {
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: white;
+    gap: 50px;
+}
+
+.illustr {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img, .subtext,
+span {
+    width: 140px;
+}
+.img {
+    height: 140px;
+    border: 5px solid #3882F7;
+    border-radius: 15px;
+}
+
+.subtext {
+    margin-left: 7px;
+}
+
+span {
+    display: inline-block;
+    text-align: center;
+}
