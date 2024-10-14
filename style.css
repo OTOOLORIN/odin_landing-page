@@ -125,7 +125,7 @@ span {
 }
 .img {
     height: 140px;
-    border: 5px solid #3882F7;
+    border: 3px solid #3882F7;
     border-radius: 15px;
 }
 
@@ -136,4 +136,30 @@ span {
 span {
     display: inline-block;
     text-align: center;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    /* border: 2px solid darkslategray; */
+    width: 750px;
+}
+
+.author {
+    align-self: end;
+    font-weight: 900;
 }
