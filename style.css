@@ -163,3 +163,36 @@ span {
     align-self: end;
     font-weight: 900;
 }
+
+.section-four {
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action {
+    width: 800px;
+    display: flex;
+    background-color: #3882F6;
+    padding: 40px 70px;
+    border-radius: 7px;
+    justify-content: space-between;
+}
+
+.action-text {
+    border: 2px solid red;
+}
+
+.upper-text {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.lower-text {
+    color: white;
+}
+.section-four .signup {
+    align-self: center;
+    border: 2px solid white;
+}
