@@ -5,8 +5,17 @@
     border-style: none;
 }
 
-body {
+body{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-one, .section-two,
+.section-three, .section-four,
+.footer {
+    flex-shrink: 0;
 }
 
 .section-one {
@@ -14,24 +23,28 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     background-color: #1F2937;
+    min-width: 1200px;
     padding-top: 15px;
-    height: 500px;
+    flex-basis: 500px;
 }
 
 .header-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    /* border: 2px solid darkslategray; */
+    border: 2px solid darkslategray;
     margin-bottom: 100px;
-    width: 1200px;
+    width: 1100px;
 }
 
 .menus {
     display: flex;
     gap: 30px;
-    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    border: 2px solid red;
 }
 
 .header-text {
@@ -97,7 +110,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    height: 400px;
+    flex-basis: 400px;
 }
 
 .some-info {
@@ -141,7 +154,7 @@ span {
 
 .section-three {
     background-color: #E5E7EB;
-    height: 350px;
+    flex-basis: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,14 +163,23 @@ span {
 .quote-container {
     display: flex;
     flex-direction: column;
+    gap: 10px;
     /* border: 2px solid red; */
+    min-width: 200px;
 }
 
 .quote {
     font-size: 36px;
+    display: flex;
+    justify-content: center;
     color: #1F2937;
+    min-width: 150px;
     /* border: 2px solid darkslategray; */
-    width: 750px;
+}
+
+p {
+    width: 800px;
+    line-height: 50px;
 }
 
 .author {
@@ -167,7 +189,7 @@ span {
 
 .section-four {
     display: flex;
-    height: 250px;
+    flex-basis: 250px;
     align-items: center;
     justify-content: center;
 }
@@ -181,10 +203,6 @@ span {
     justify-content: space-between;
 }
 
-.action-text {
-    border: 2px solid red;
-}
-
 .upper-text {
     font-weight: bold;
     color: whitesmoke;
@@ -196,4 +214,17 @@ span {
 .section-four .signup {
     align-self: center;
     border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    background-color: #1F2937;
+    flex-basis: 75px;
+}
+
+.footer .text {
+    color: white;
 }
