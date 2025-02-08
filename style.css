@@ -21,7 +21,6 @@ header,
 .images,
 .quote-container,
 .cta-container {
-    width: 70%;
     margin: auto;
     max-width: 1000px;
 }
