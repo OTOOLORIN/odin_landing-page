@@ -18,7 +18,8 @@ body {
 
 header,
 .hero-container,
-.images {
+.images,
+.quote-container {
     width: 70%;
     margin: auto;
     max-width: 1000px;
@@ -136,4 +137,25 @@ button {
 
 .subtext {
     max-width: 150px;
+}
+
+.quote-section {
+    background: #e5e7eb;
+    padding: 120px 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 70px;
+}
+
+.quote-container {
+    max-width: 750px;
+    min-width: 400px;
+}
+
+.author {
+    font-style: normal;
+    font-size: 26px;
+    text-align: right;
+    font-weight: bold;
 }
