@@ -150,11 +150,12 @@ header ul {
     font-style: italic;
     color: #1f2937;
     margin-bottom: 70px;
-    min-width: 500px;
     line-height: 45px;
+    min-width: 550px;
 }
 
 .quote-container {
+    min-width: 500px;
     padding: 0 25px;
 }
 
