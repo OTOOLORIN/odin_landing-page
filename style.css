@@ -152,11 +152,12 @@ header ul {
     font-style: italic;
     color: #1f2937;
     margin-bottom: 70px;
+    min-width: 400px;
+    line-height: 45px;
 }
 
 .quote-container {
     max-width: 750px;
-    min-width: 400px;
 }
 
 .author {
