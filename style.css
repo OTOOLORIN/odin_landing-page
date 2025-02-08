@@ -10,7 +10,6 @@ body {
 }
 
 .hero-section {
-    border: 1px solid red;
     background-color:#122937;
     min-width: 550px;
     padding-bottom: 70px;
@@ -156,7 +155,7 @@ header ul {
 }
 
 .quote-container {
-    border: 1px solid red;
+    padding: 0 25px;
 }
 
 .author {
