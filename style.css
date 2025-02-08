@@ -146,17 +146,17 @@ header ul {
 
 .quote-section {
     background: #e5e7eb;
-    padding: 120px 0;
+    padding: 120px 20px;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
     margin-bottom: 70px;
-    min-width: 400px;
+    min-width: 500px;
     line-height: 45px;
 }
 
 .quote-container {
-    max-width: 750px;
+    border: 1px solid red;
 }
 
 .author {
@@ -172,7 +172,7 @@ header ul {
 
 .cta-container {
     background-color: #3882F6;
-    min-width: 427px;
+    min-width: 550px;
     color: #f9faf8;
     padding: 50px 100px;
     font-size: 20px;
