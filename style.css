@@ -195,3 +195,11 @@ header ul {
     opacity: 0.5;
 }
 
+.footer {
+    background: #1F2937;
+    padding: 30px 0;
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
