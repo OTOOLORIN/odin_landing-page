@@ -72,12 +72,9 @@ header ul {
 
 .hero-container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     row-gap: 30px;
-}
-
-.intro {
-    margin-right: auto;
 }
 
 .cta-container button,
@@ -203,6 +200,7 @@ header ul {
     text-align: center;
     color: #e5e7eb;
     font-size: 18px;
+    min-width: 700px;
     margin-top: auto;
 }
 
